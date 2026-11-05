@@ -1,2 +1,2 @@
 # practice_react
- first react project with tutorial
+ first react projects with tutorial
