@@ -6,11 +6,16 @@ import MainContent from "./MainContent"
 
 const root = createRoot(document.getElementById("root"))
 
+function Page(){
+    return(
+        <>
+            <Header/>
+            <MainContent/>
+            <Footer/>
+        </>
+    )
+}
 
 root.render(
-    <>
-        <Header/>
-        <MainContent/>
-        <Footer/>
-    </>
+    <Page/>
 )
