@@ -13,14 +13,9 @@ function MainContent(){
 // 2 render some markup to the root
 //console.log(reactElement)
 root.render(
-    <div>
-        reactElement
-        <MainContent />
-    </div>
+    <main>
+        <img src = "de_tre.png" />
+        <h1>hiii</h1>
+    </main>
     
 )
-
-
-
-
-//alternative createRoot(document.getElementById("root")).render (...)
