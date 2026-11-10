@@ -2,95 +2,9 @@
     box-sizing: border-box;
 }
 
-.nav-bar{
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
-    background-color: #202129;
-    align-items: center;
-    gap: 30px;
-    padding: 20px 30px;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-
-.logo-pic{
-    width: 50px;
-}
-
-.logo-txt{
-    color : #00d8ff;
-    font-size: 1.4rem;
-    font-weight: 700;
-}
-
-.logo-txt:hover{
-    color: white;
-}
-
-.logo{
-    display: flex;
-    justify-content:left;
-    gap: 10px;
-}
-
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: #27292c;
-    color: white;
-    background-color: #282d35;
-}
-
-.main{
-    padding: 20px 30px;
-}
-
-.fact-list{
-    list-style: none;
-    padding-left: 0;
-    max-width: 400px;
-    margin-block: 30px;
-}
-
-.fact-list li{
-    display: flex;
-    align-items: flex-start;
-    line-height: 30px;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-
-.fact-list li::before{
-    content: "";
-    flex-shrink: 0;
-    width: 20px;
-    height: 30px;
-    background-size: 19px;
-    background-image: url("/react.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-/* oroginal assignment
-li::marker{
-    color: #00d8ff;
-    font-size: 1.8em;
-}
-    */
-
-.background-logo{
-    width: 500;
-    position: fixed;
-    right: -250;
-    top: 200;
-    z-index: -1;
-    opacity: 10%;
-    filter: grayscale(100%);
-    pointer-events: none;
+footer{
+    background-color: #161619;
+    
 }
 
 
