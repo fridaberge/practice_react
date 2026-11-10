@@ -1,7 +1,7 @@
 export default function Main(){
     return(
         <>
-            <section className = "main">
+            <main ction className = "main">
                 <h1>Fun facts about React</h1>
                 <ul className = "fact-list">
                     <li>Was first released in 2013</li>
@@ -11,7 +11,7 @@ export default function Main(){
                     <li>Powers thousands of enterprice apps, including mobilre apps</li>
                 </ul>
                 <img className = "background-logo" src = "react.svg" alt = "big logo react"/>
-            </section>
+            </main>
         </>
     )
 }
