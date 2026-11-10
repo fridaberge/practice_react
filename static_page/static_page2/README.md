@@ -1,16 +1,39 @@
-# React + Vite
+# ReactFacts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[← Back to all static pages](../README.md)
 
-Currently, two official plugins are available:
+A static page with facts about React, built with React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Screenshot of ReactFacts](./screenshot.png)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Full-width sticky header with logo
+- Faded, grayscale background image centered in the main section
+- List items using the React logo instead of bullet points
 
-## Expanding the ESLint configuration
+## What I learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Removing the default `body` margin so the header reaches the edges
+- Using `box-sizing: border-box` so padding doesn't cause overflow
+- Positioning an image behind content with `z-index` and `opacity`
+- Centering with `position: absolute` and `transform: translate(-50%, -50%)`
+- Replacing list markers with `::before` and lining them up with the first line
+
+## Built with
+
+- React
+- Vite
+- CSS
+
+## Run it locally
+
+```bash
+cd static_page/static_page2
+npm install
+npm run dev
+```
+
+---
+
+[← Previous: Static Page 1](../static_page1/) | [All projects](../README.md)
