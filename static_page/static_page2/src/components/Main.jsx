@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL
+
 export default function Main(){
     return(
         <>
@@ -10,7 +12,7 @@ export default function Main(){
                     <li>Is maintained by Meta</li>
                     <li>Powers thousands of enterprice apps, including mobilre apps</li>
                 </ul>
-                <img className = "background-logo" src = "react.svg" alt = "big logo react"/>
+                <img className = "background-logo" src={`${base}react.svg`} alt = "big logo react"/>
             </main>
         </>
     )
