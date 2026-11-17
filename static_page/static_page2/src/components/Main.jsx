@@ -1,7 +1,9 @@
+import logo from '../../react.svg'
+
 export default function Main(){
     return(
         <>
-            <main ction className = "main">
+            <main className = "main">
                 <h1>Fun facts about React</h1>
                 <ul className = "fact-list">
                     <li>Was first released in 2013</li>
@@ -10,7 +12,7 @@ export default function Main(){
                     <li>Is maintained by Meta</li>
                     <li>Powers thousands of enterprice apps, including mobilre apps</li>
                 </ul>
-                <img className = "background-logo" src = "react.svg" alt = "big logo react"/>
+                <img className = "background-logo" src = {logo} alt = "big logo react"/>
             </main>
         </>
     )
