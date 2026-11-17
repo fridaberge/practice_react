@@ -11,7 +11,7 @@ I made it to learn three things:
 
 | Project | Description | Live site |
 |---|---|---|
-| solo_project | A personal profile page | [View site](https://fridaberge.github.io/practice_react/solo_project/) |
+| solo_project | A personal profile page - no CSS work done yet | [View site](https://fridaberge.github.io/practice_react/solo_project/) |
 | static_page1 | Layout and CSS practice | [View site](https://fridaberge.github.io/practice_react/static_page1/) |
 | static_page2 | Layout and CSS practice | [View site](https://fridaberge.github.io/practice_react/static_page2/) |
 
