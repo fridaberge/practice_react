@@ -3,15 +3,8 @@
     background-color: #1a1b21;
     color: white;
     margin: 0;
-}
-
-footer{
-    background-color: #161619;
-    
-}
-
-.header{
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 .profile-pic{
@@ -20,3 +13,66 @@ footer{
     height: auto;
 }
 
+.header-txt{
+    display: block;
+    text-align: center;
+    margin: 50;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+.header-txt > h2{
+    font-size: 1.5rem;
+    color: #e6b692;
+}
+h3{
+    padding-top: 10;
+    font-size: 1rem;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20;
+}
+
+button{
+    width: 200px;
+    padding: 10;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.email-button{
+    background-color: white;
+    color: black;
+}
+
+.link-button{
+    background-color: #5093e2;
+}
+
+main{
+    margin: 50;
+}
+
+main > section{
+    margin-top: 20;
+}
+
+footer{
+    background-color: #161619;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 25;
+    padding-left: 100;
+    padding-right: 100;
+}
+
+footer > img{
+    height: 40px;
+
+}
