@@ -3,7 +3,7 @@ const base = import.meta.env.BASE_URL
 export default function Main(){
     return(
         <>
-            <main ction className = "main">
+            <main>
                 <h1>Fun facts about React</h1>
                 <ul className = "fact-list">
                     <li>Was first released in 2013</li>
