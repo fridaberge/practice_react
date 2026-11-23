@@ -5,4 +5,14 @@ html, body {
 
 header{
   background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+}
+
+header > img{
+  width: 24px;
+  margin-right: 7px;
 }
