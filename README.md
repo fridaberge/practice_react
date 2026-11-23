@@ -14,6 +14,11 @@ I made it to learn three things:
 | solo_project | A personal profile page - no CSS work done yet | [View site](https://fridaberge.github.io/practice_react/solo_project/) |
 | static_page1 | Layout and CSS practice | [View site](https://fridaberge.github.io/practice_react/static_page1/) |
 | static_page2 | Layout and CSS practice | [View site](https://fridaberge.github.io/practice_react/static_page2/) |
+## Data-driven
+
+| Project | Description | Live |
+|---|---|---|
+| travel_journal | A travel journal built with React components, props and data | [View site](https://fridaberge.github.io/practice_react/travel_journal/) |
 
 ## Built with
 
