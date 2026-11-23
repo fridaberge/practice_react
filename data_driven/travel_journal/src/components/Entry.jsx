@@ -1,21 +1,26 @@
-const base = import.meta.env.BASE_URL
-
-export default function Entry(){
-    return(
-        <article className = "journal-entry">
+export default function Entry() {
+    return (
+        <article className="journal-entry">
             <div className="main-image-container">
-                <img className = "main-image" src="//scrimba.com/links/travel-journal-japan-image-url" alt = "Mount Fuji"/>
+                <img 
+                    className="main-image"
+                    src="https://scrimba.com/links/travel-journal-japan-image-url" 
+                    alt="mount fuji" 
+                />
             </div>
-            <div>
-                <img src={`${base}images/marker.png`} alt="Globe" />
-                <span>Japan</span>
-                <a href = "https://www.google.com/maps/search/Mt.+Fuji+Shizuoka+%26+Yamanashi+Japan/@35.3665784,138.7296359,6343m/data=!3m2!1e3!4b1?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D">View on Google Maps</a>
-                <h2>Mount Fuji</h2>
-                <p>12. Jan, 2021 - 24 Jan. 2021</p>
+            <div className="info-container">
+                <img 
+                    className="marker"
+                    src="../images/marker.png" 
+                    alt="map marker icon"
+                />
+                <span className="country">Japan</span>
+                <a href="https://www.google.com/maps/place/Mount+Fuji/@35.3606421,138.7170637,15z/data=!3m1!4b1!4m6!3m5!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634!16zL20vMGNrczA?entry=ttu">View on Google Maps</a>
+                <h2 className="entry-title">Mount Fuji</h2>
+                <p className="trip-dates">12 Jan, 2021 - 24 Jan, 2021</p>
+                <p className="entry-text">Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.</p>
             </div>
+            
         </article>
     )
 }
-
-
-/*Photos from Unsplash (can use these URLs as your img src) Japan https://scrimba.com/links/travel-journal-japan-image-url Australia https://scrimba.com/links/travel-journal-australia-image-url Norway https://scrimba.com/links/travel-journal-norway-image-url*/
