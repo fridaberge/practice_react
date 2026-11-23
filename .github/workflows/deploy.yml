@@ -27,13 +27,16 @@ jobs:
       - name: Bygg alle prosjektene
         run: |
           mkdir -p site
-          for p in solo_project static_page1 static_page2; do
+          for dir in static_page/*/ data_driven/*/; do
+            dir=${dir%/}
+            p=$(basename "$dir")
             echo "=== Bygger $p ==="
-            cd static_page/$p
-            npm ci
-            npm run build -- --base=/practice_react/$p/
-            cp -r dist ../../site/$p
-            cd ../..
+            (
+              cd "$dir"
+              npm ci
+              npm run build -- --base=/practice_react/$p/
+            )
+            cp -r "$dir/dist" "site/$p"
           done
 
       - uses: actions/upload-pages-artifact@v3
